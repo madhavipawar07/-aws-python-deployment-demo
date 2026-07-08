@@ -1,7 +1,7 @@
 import os
 
-print("Starting Deployment")
+print("Starting Deployment", flush=True)
 
 os.system("python app.py")
 
-print("Deployment Successful")
+print("Deployment Successful", flush=True)
